@@ -42,5 +42,5 @@ node get-reports.js *PATH TO CSV*
 <div align="center">
     <p>If you have any troubles with running this program, you can always email me by clicking at the following link:</p>
     <a href="mailto:v.pashaliuk@gmail.com?subject=[GitHub]%20SpotifyCharts%20CSV%20Parser">Tell this guy that his software stinks</a>
-    <img style="margin-top: 25px;" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bb1d693658133.5e98ba7eb53fc.gif" />
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bb1d693658133.5e98ba7eb53fc.gif" />
 </div>
