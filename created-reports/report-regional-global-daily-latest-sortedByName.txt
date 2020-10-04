@@ -1,116 +1,110 @@
 ---------------------------------------------------------
 |            ARTIST            |     # OF APPEARANCES   |
 ---------------------------------------------------------
+|                 21 Savage    |           15           |
 |                  24kGoldn    |            1           |
-|                   6ix9ine    |            3           |
-|                 Alex Rose    |            1           |
+|                    Anitta    |            1           |
 |                  Anuel AA    |            1           |
 |             Ariana Grande    |            2           |
 |            Arizona Zervas    |            1           |
+|                  Ashnikko    |            1           |
 |                   Ava Max    |            1           |
 |              Aya Nakamura    |            1           |
 |                 Bad Bunny    |            2           |
 |                   BANNERS    |            1           |
-|                Bea Miller    |            1           |
 |                     BENEE    |            1           |
-|                  Big Sean    |            6           |
-|             Billie Eilish    |            5           |
+|                  Big Sean    |            1           |
+|             Billie Eilish    |            4           |
 |           Black Eyed Peas    |            1           |
 |                 blackbear    |            1           |
-|                 BLACKPINK    |            2           |
-|                  Bonez MC    |            1           |
+|                 BLACKPINK    |            8           |
+|              BLOODY VINYL    |            1           |
 |                     BØRNS    |            1           |
-|      Bring Me The Horizon    |            1           |
+|             Bryson Tiller    |           10           |
 |                       BTS    |            1           |
-|             Calvin Harris    |            1           |
-|                    Camilo    |            2           |
+|                    Camilo    |            3           |
 |                   Cardi B    |            1           |
-|               Chris Brown    |            2           |
+|               Chris Brown    |            1           |
+|              Clean Bandit    |            1           |
 |                Conan Gray    |            1           |
 |             Curtis Waters    |            1           |
 |                    DaBaby    |            1           |
+|              Daddy Yankee    |            1           |
 |                 DJ Khaled    |            2           |
-|                  Doja Cat    |            2           |
+|                  Doja Cat    |            1           |
 |               Don Toliver    |            1           |
-|                     Drake    |            3           |
+|                     Drake    |            2           |
 |                  Dua Lipa    |            3           |
 |                Ed Sheeran    |            4           |
 |                    Eminem    |            1           |
-|                      Feid    |            1           |
+|                   Farruko    |            1           |
+|             Fleetwood Mac    |            1           |
 |                    Future    |            1           |
-|                     Gunna    |            1           |
-|                Harry Nach    |            1           |
 |              Harry Styles    |            3           |
-|                Headie One    |            1           |
 |           Imagine Dragons    |            1           |
 |            Internet Money    |            2           |
-|                      ITZY    |            1           |
 |                  J Balvin    |            3           |
-|               Jack Harlow    |            2           |
+|               Jack Harlow    |            1           |
 |              James Arthur    |            1           |
 |              Jason Derulo    |            1           |
 |                 Jawsh 685    |            2           |
 |               Jay Wheeler    |            1           |
 |                  Jerry Di    |            1           |
-|               Jhay Cortez    |            1           |
 |                Joel Corry    |            1           |
 |               John Legend    |            1           |
-|            Jonas Esticado    |            1           |
+|                      Joji    |            2           |
 |                   JP Saxe    |            1           |
-|                Juice WRLD    |            9           |
+|                Juice WRLD    |            6           |
 |                       Jul    |            1           |
-|             Justin Bieber    |            1           |
+|             Justin Bieber    |            2           |
 |             Justin Quiles    |            1           |
-|                      K/DA    |            1           |
 |                Kane Brown    |            1           |
 |                   KAROL G    |            2           |
-|            Kendrick Lamar    |            1           |
 |                      KHEA    |            1           |
-|               KitschKrieg    |            1           |
-|                      Kygo    |            2           |
 |                  Labrinth    |            1           |
 |                 Lady Gaga    |            2           |
+|                 Lele Pons    |            1           |
 |             Lewis Capaldi    |            2           |
 |                 Lil Mosey    |            1           |
-|         Machine Gun Kelly    |            1           |
-|                    Maluma    |            4           |
+|         Machine Gun Kelly    |            3           |
+|                    Maluma    |            3           |
 |             Manuel Turizo    |            1           |
-|                  Maroon 5    |            2           |
+|                  Maroon 5    |            1           |
 |                Marshmello    |            2           |
+|                 Master KG    |            1           |
 |                    MEDUZA    |            1           |
 |       Megan Thee Stallion    |            1           |
 |          Melanie Martinez    |            1           |
 |               Miley Cyrus    |            2           |
-|             Morgan Wallen    |            1           |
-|                       Nea    |            1           |
+|                 Money Man    |            1           |
 |                     Niack    |            1           |
 |                Nio Garcia    |            1           |
-|                     Ozuna    |            5           |
-|                    Polo G    |            2           |
-|                 Pop Smoke    |            5           |
+|                  Ofenbach    |            1           |
+|                     Ozuna    |            4           |
+|                    Polo G    |            1           |
+|                 Pop Smoke    |            7           |
 |               Post Malone    |            3           |
 |                     Powfu    |            1           |
 |                     Queen    |            1           |
 |            Rauw Alejandro    |            2           |
-|                       RBD    |            9           |
-|                    Regard    |            2           |
-|              Robin Schulz    |            1           |
+|                    Regard    |            1           |
+|               Ritt Momney    |            1           |
 |               Roddy Ricch    |            1           |
 |                   ROSALÍA    |            1           |
 |                 SAINt JHN    |            1           |
 |               salem ilese    |            1           |
-|                  Saweetie    |            2           |
+|                 Sam Smith    |            1           |
+|                     Samra    |            1           |
 |                      Sech    |            2           |
-|              Shawn Mendes    |            1           |
+|              Shawn Mendes    |            2           |
 |            StaySolidRocky    |            1           |
 |                 Super Yei    |            1           |
 |                 Surf Mesa    |            1           |
 |                  Surfaces    |            1           |
-|                       SZA    |            1           |
 |                     Tainy    |            1           |
 |                Tate McRae    |            1           |
-|              Taylor Swift    |            2           |
-|             The Kid LAROI    |            1           |
+|              Taylor Swift    |            1           |
+|         The Neighbourhood    |            1           |
 |                THE SCOTTS    |            1           |
 |                The Weeknd    |            2           |
 |               Tones And I    |            1           |
@@ -118,8 +112,8 @@
 |              Travis Scott    |            4           |
 |             Trevor Daniel    |            1           |
 |                    Trueno    |            1           |
-|                    Ufo361    |            1           |
-|                   Wallows    |            1           |
+|                      Vedo    |            1           |
 |                   WhoHeem    |            1           |
 |              XXXTENTACION    |            2           |
+|                      ZAYN    |            1           |
 ---------------------------------------------------------

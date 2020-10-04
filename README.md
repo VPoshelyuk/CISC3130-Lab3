@@ -1,5 +1,5 @@
-# CISC3130-Lab2
-## Create a Report: Who appears on the top streamed list?
+# CISC3130-Lab3
+## Report: Who are the music artists (in alphabetical order)?
 ### About
 This CLI tool allows you to parse any CSV report from [SpotifyCharts](https://spotifycharts.com/regional) and provides you with the information on artists' appearances in the parsed chart right in your command line.  
 Sounds awesome, right? But the cherry on the top of all of it is the fact that you also get two txt reports with the sorted data: one of them holds data sorted by artist name and another one has data sorted by the number of appearances, you can easily distinguish them by the filename postfix.  
@@ -27,9 +27,9 @@ git clone *PASTE THE LINK HERE*
 ```
 4. After all the files are copied to your local machine navigate to the newly created directory using the following command 
 ```zsh 
-cd CISC3130-Lab2/JavaScript/
+cd CISC3130-Lab2/src/
 ```  
-5. When you are inside of the JavaScript directory
+5. When you are inside of the `src` directory
 - If you want to get this tool running with the default preloaded CSV, simply run the following command without any argumnets provided: 
 ```zsh
 node get-reports.js
@@ -38,9 +38,4 @@ node get-reports.js
 ```zsh
 node get-reports.js *PATH TO CSV*
 ```  
-***NOTE: Filepath should be a path to the file saved locally, also no spaces in the Pathname are allowed.***  
-<div align="center">
-    <p>If you have any troubles with running this program, you can always email me by clicking at the following link:</p>
-    <a href="mailto:v.pashaliuk@gmail.com?subject=[GitHub]%20SpotifyCharts%20CSV%20Parser">Tell this guy that his software stinks</a>
-    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bb1d693658133.5e98ba7eb53fc.gif" />
-</div>
+***NOTE: Filepath should be a path to the file saved locally, also no spaces in the Pathname are allowed.***

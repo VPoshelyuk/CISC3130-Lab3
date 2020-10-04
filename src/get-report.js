@@ -1,3 +1,5 @@
+//import the module that comtains Artist and TopStreamingArtists classes
+const artistModule = require('./artist.js');
 // file system node module to be able to read files
 const fs = require('fs');
 
@@ -53,53 +55,36 @@ const createArtistPairs = (data) => {
 
 /*
     * @param {Object{}} artists
-    * @return {Object{}}
  */
 const sortByName = (artists) => {
-    const sorted = {}
-    // sort keys in alphabetical order, then copy the elements of artist object
-    // into sorted object in the correct order
-    Object.keys(artists).sort((a, b) => a.localeCompare(b)).forEach(key => {
-        sorted[key] = artists[key];
-    });
-    return sorted
+    Object.keys(artists).forEach((name) => {
+        //create a new Arist node
+        const artistNode = new artistModule.Artist(name, artists[name])
+        //call insertSorted method with newly created Artist node
+        topStreamingArtists.insertSorted(artistNode)
+    })
 }
 
-/*
-    * @param {Object{}} artists
-    * @return {Object{}}
- */
-const sortByNumOfAppearances = (artists) => {
-    const sorted = {}
-    // sort keys in descending order of their values, then copy the elements of
-    // artist object into sorted object in the correct order
-    console.log(Object.keys(artists).sort((a,b) => artists[b]-artists[a]))
-    Object.keys(artists).sort((a,b) => artists[b]-artists[a]).forEach(key => {
-        sorted[key] = artists[key];
-    });
-    return sorted
-}
 
 /*
     print artist names and their appearances numbers in the format of a table
     * @param {Object{}} artists
  */
-const consoleLogData = (artists) => {
+const consoleLogData = () => {
     console.log("---------------------------------------------------------");
     console.log("|            ARTIST            |     # OF APPEARANCES   |");
     console.log("---------------------------------------------------------");
-    Object.keys(artists).forEach((artistName) => {
-        console.log(`|${artistName.padStart(26)}    |${artists[artistName].toString().padStart(13)}           |`);
+    topStreamingArtists.forEach((artist) => {
+        console.log(`|${artist.name.padStart(26)}    |${artist.appNum.toString().padStart(13)}           |`);
     });
     console.log("---------------------------------------------------------");
 }
 
 /*
     write artist names and their appearances numbers into a file
-    * @param {Object{}} artists
     * @param {string} filePostfix
  */
-const writeToFile = (artists, filePostfix) => {
+const writeToFile = (filePostfix) => {
     let inputFileName;
     // if an input file was provided, name the output file accordingly
     // else go with default
@@ -117,8 +102,8 @@ const writeToFile = (artists, filePostfix) => {
     writeStream.write("---------------------------------------------------------\n");
     writeStream.write("|            ARTIST            |     # OF APPEARANCES   |\n");
     writeStream.write("---------------------------------------------------------\n");
-    Object.keys(artists).forEach((artistName) => {
-        writeStream.write(`|${artistName.padStart(26)}    |${artists[artistName].toString().padStart(13)}           |\n`);
+    topStreamingArtists.forEach((artist) => {
+        writeStream.write(`|${artist.name.padStart(26)}    |${artist.appNum.toString().padStart(13)}           |\n`);
     });
     writeStream.write("---------------------------------------------------------");
     writeStream.on('finish', () => {
@@ -128,17 +113,16 @@ const writeToFile = (artists, filePostfix) => {
     writeStream.end();
 }
 
+// create a new TopStreamingArtists linked list
+let topStreamingArtists = new artistModule.TopStreamingArtists
 // call the porcessConsoleInput method and handle the input data
 const data = porcessConsoleInput();
 // call the createArtistPairs method and process the input data
 // to keep only the data we need(artists names && appearances numbers)
 const artists = createArtistPairs(data);
 // sort artists by name
-const artistSortedByName = sortByName(artists);
-// sort artists by appearances number
-const artistSortedByAppNum = sortByNumOfAppearances(artists);
-// output unsorted data to console(table format)
-consoleLogData(artists);
-// write sorted data to files
-writeToFile(artistSortedByAppNum, "sortedByAppNumber");
-writeToFile(artistSortedByName, "sortedByName");
+sortByName(artists)
+// output sorted data to console(table format)
+consoleLogData();
+// write sorted data to file
+writeToFile("sortedByName");
