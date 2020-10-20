@@ -34,4 +34,5 @@ node get-reports.js
 ```zsh
 node get-reports.js *PATH TO CSV*
 ```  
+
 ***NOTE: Filepath should be a path to the file saved locally, also no spaces in the Pathname are allowed.***
